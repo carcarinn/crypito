@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">  
+  <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Antic+Didone&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div id="logo"><img src = "images/logo.png"></div>
+    <nav class="navbar">
+      <a href="Crypito-Home.html">Home</a>
+      <a href="cryptocurrency.html">Cryptocurrency</a>
+      <a href="learn.html">Learn</a>
+      <a href="benefit.html">Benefits</a>
+      <a href="register.html" class="active">Register</a>
+    </nav>
+    <div> <img src="images/profile.png"> </div>
+  </header>
+
+  <div class="form-container">
+  <form action="" id="register-form" method="POST">
+    <h1>Register Form</h1>
+
+    <label for="username">Username</label>
+    <input type="text" name="username" id="username">
+
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email">
+
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password">
+
+    <label for="conf_password">Confirm Password</label>
+    <input type="password" name="conf_password" id="conf_password">
+
+    <label for="gender">Gender</label>
+    <div class="gender">
+      <div class="gender-box">
+        <input type="radio" name="gender" id="male" value="Male">
+        <label for="male">Male</label>
+      </div>
+      <div class="gender-box">
+        <input type="radio" name="gender" id="female" value="Female">
+        <label for="female">Female</label>
+      </div>
+    </div>
+
+    <label for="dob">Date Of Birth</label>
+    <input type="date" name="dob" id="dob">
+
+    <button type="submit" id="register-btn">Register</button>
+  </form>
+</div>
+
+
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-left">
+        <a href="#">Privacy Policy</a>| <a href="#">Term of Use</a>
+      </div>
+
+      <div class="footer-center">
+        <span><img src="images/insta.png" alt="Instagram" width="16">@CryPltoOfficial</span>
+        <span><img src="images/x.png" alt="X" width="16">@CryPlto</span>
+        <span id="discimg"><img src="images/discord.png" alt="Discord">@CryPltoSupport</span>
+      </div>
+
+      <div class="footer-right">
+        © 2025 CryPlto, all rights reserved
+      </div>
+    </div>
+  </footer>
+
+  <script src = "script.js"></script>
+</body>
+</html>
+
+
